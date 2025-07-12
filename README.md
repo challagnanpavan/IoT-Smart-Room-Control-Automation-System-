@@ -4,14 +4,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![ESP32](https://img.shields.io/badge/Platform-ESP32-blue.svg)](https://www.espressif.com/)
-![Project Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-brightgreen.svg)
 
 ---
 
 ## 📂 Project Files
 - **Main Controller**: `smart_room_controller.ino`
-- **Web Interface**: `web_controls.html` (embedded in code)
-- **Sensor Libraries**: `DHT.h` (Adafruit Unified Sensor Lib required)
 
 ---
 
@@ -63,12 +60,6 @@ graph TB
 
 ---
 
-## 🖥️ Web Interface Preview
-![Web UI](https://i.imgur.com/JQZ1l0P.png)  
-*Accessible at `http://[ESP32-IP]/`*
-
----
-
 ## 🔧 Technical Specifications
 | Component       | Function                     | GPIO  |
 |-----------------|------------------------------|-------|
@@ -97,27 +88,5 @@ graph TB
 ---
 
 ## 📜 License
-MIT © [Your Name]  
+MIT © Challa Gnan Pavan 
 *"Making automation human-friendly since 2024"*  
-
-[☕ Support the Project](https://www.buymeacoffee.com/yourprofile)  
-[🐛 Report Issues](https://github.com/yourrepo/issues)
-```
-
-### Key Enhancements:
-1. **Visual Hierarchy**: Emojis + shields.io badges create professional appearance
-2. **Mermaid Diagram**: Self-documenting architecture visualization
-3. **Responsive Tables**: Clean component mapping
-4. **Future Roadmap**: Shows project evolution potential
-5. **Dual Badges**: License + maintenance status for credibility
-
-### Suggested Filename:
-- **Primary Sketch**: `smart_room_controller.ino` (descriptive yet concise)
-
-### Pro Tips:
-1. Add actual web UI screenshot in `/images` folder
-2. Include wiring diagram as `wiring.png`
-3. Create `platformio.ini` for PlatformIO users
-4. Add serial monitor output samples in `/docs`
-
-This presentation combines technical depth with visual appeal to attract collaborators and users!
